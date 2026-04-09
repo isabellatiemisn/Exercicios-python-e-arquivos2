@@ -27,7 +27,7 @@ def entrada():
     Maior = Número
     Menor = Número
     Contador = Contador + 1
-    while (Contador<10):
+    while (Contador<100):
         Número = float(input("Digite outro número:"))
         while (Número<=0):
             print ("Inválido")
